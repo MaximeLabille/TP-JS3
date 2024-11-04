@@ -31,6 +31,7 @@ td, th {
 input {
     background-color: #171212;
     color: white;
+    transition: border 500ms;
     border: 1px solid #302727;
     text-align: center;
     margin-left: 2.5px;
@@ -53,8 +54,9 @@ button {
     padding-top: 1px;
     padding-bottom: 1px;
     background-color: #3388CC;
+    transition: outline 500ms;
+    transition: background-color 500ms;
     border: none;
-    transition: all 300ms;
     font-family: "JetBrains Mono", system-ui;
     font-optical-sizing: auto;
     outline-offset: 2px;
