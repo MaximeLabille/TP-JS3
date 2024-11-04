@@ -50,19 +50,19 @@ function calc() {
 };
 
 function resetinputs() {
-    t1_1.value = t1_1.placeholder;
-    t1_2.value = t1_2.placeholder;
-    t1_3.value = t1_3.placeholder;
+    t1_1.value = "";
+    t1_2.value = 0;
+    t1_3.value = 0;
 
 
-    t2_1.value = t2_1.placeholder;
-    t2_2.value = t2_2.placeholder;
-    t2_3.value = t2_3.placeholder;
+    t2_1.value = "";
+    t2_2.value = 0;
+    t2_3.value = 0;
 
 
-    t3_1.value = t3_1.placeholder;
-    t3_2.value = t3_2.placeholder;
-    t3_3.value = t3_3.placeholder;
+    t3_1.value = "";
+    t3_2.value = 0;
+    t3_3.value = 0;
 
     calc();
 };
